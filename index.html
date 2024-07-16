@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Slider com HTML e CSS</title>
+</head>
+<body>
+    <div class="slider">
+        <div class="slides">
+            <!-- Radio Buttons -->
+             <input type="radio" name="radio-btn" id="radio1">
+             <input type="radio" name="radio-btn" id="radio2">
+             <input type="radio" name="radio-btn" id="radio3">
+             <input type="radio" name="radio-btn" id="radio4">
+             
+             <!-- imagens Slide -->
+             <div class="slide first">
+                 <img src="./img/Nextjs.PNG" alt="Imagem do logo do Nextjs">
+                </div>
+                <div class="slide">
+                    <img src="./img/phplogo.jpg" alt="Imagem do logo do PHP">
+                </div>
+                <div class="slide">
+                    <img src="./img/saoLucas1.jpg" alt="Imagem ">
+                </div>
+                <div class="slide">
+                    <img src="./img/saoLucas2.jpg"alt="Imagem ">
+                </div>
+
+                <!-- Navegação auto -->
+                 <div class="navegacao-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                 </div>
+
+            </div><!-- Fim Slides -->
+
+            <div class="navegacao-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+
+    </div><!-- Fim Slider -->
+
+    <script src="script.js"></script>
+</body>
+</html>
